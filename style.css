@@ -1,0 +1,168 @@
+body{
+  background-color: whitesmoke;
+}
+
+/* CONTAINER STYLING */
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.nav-bar{
+  display: flex;
+  background-color: #92b2ba;
+  padding: 20px 40px 20px 40px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* link edits */
+a{
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DB7093
+}
+
+/* MAIN CONTENT STYLING */
+
+.main-content img{
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.flex-container > div{
+  margin-top: 30px;
+  box-shadow: 1px 3px 1px 1px #E8E8E8;
+  width: 30%;
+}
+
+
+footer{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  flex-shrink: inherit;
+  background-color: #eeeeee
+}
+
+.logo > img{
+  width: 100px;
+  margin-left: 150px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+
+.logo > p{
+  display: flex;
+  margin-left: 150px;
+  color: #f0a8bb;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+
+.logo-size{
+  width: 70px;
+  margin-left: 170px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+
+.logo-size-right{
+  width: 70px;
+  margin-left: 170px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+
+.logo-size-right > p{
+  display:flex;
+  justify-content: flex-end;
+  color: #f0a8bb;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+
+.Proj1{
+  box-shadow: 1px 3px 1px 1px #E8E8E8;
+  width: 30%;
+}
+
+.tag1, .tag2, .tag3, .tag4{
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  padding: 2px 2px 5px 5px;
+  background: #E8E8E8;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Playfair Display', 'sans-serif';
+  opacity: .5;
+  text-transform: uppercase;
+}
+
+.Proj1 > li{
+  display: inline-block;
+  line-height: 2em;
+  padding: 1em;
+}
+
+
+
+.caption > p{
+  display:flex;
+  align-content: flex-start;
+  padding-left: 10px;
+  font-family: 'DM Sans', 'sans-serif';
+  color: #92b2ba
+}
+
+.price-tag > p{
+  display: flex;
+  width: 30px;
+  height: 20px;
+  flex-direction: row-reverse;
+  padding: 0px 20px 0px;
+  background-color: #DB7093;
+  float: right;
+  z-index: 1;
+  font-family: 'DM Sans', 'sans-serif';
+  color: white;
+}
+
+/* FOOTER CONTENT */
+
+.middle{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.middle > ul{
+  list-style: none;
+  color: #777777;
+}
